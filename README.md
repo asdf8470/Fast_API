@@ -2,6 +2,9 @@
  메인 코드는 main.py<br>
  html 코드는 templates 폴더 test.html에 있뜸
 
+## 기본구조
+ 
+
 ## GPT 명령어 주는법
 ```<html>
     <head>
