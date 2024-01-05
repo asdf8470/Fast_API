@@ -1,6 +1,6 @@
 # Fast_API
- fast_api_study <br>
- 코드는 main.py, test.html에 있뜸
+ 메인 코드는 main.py<br>
+ html 코드는 templates 폴더 test.html에 있뜸
 
 ## GPT 명령어 주는법
 ```<html>
