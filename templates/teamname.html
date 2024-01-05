@@ -1,15 +1,52 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <!-- 홈페이지의 상태, 외부파일 import, 탭 이름 등 페이지에 대한 속성을 정의하는 곳-->
-        <tittle1 style = 'color : rgb(9, 9, 129)'> FastAPI 웹화면 </tittle1>
-    </head>
-    
-    <body>
-        <h1 style = 'color : rgb(0, 0, 255)'> 팀원 1 :{{name1}} </h1>
-        <h3 style = 'color : rgb(255, 0, 0)'> 팀원 2 :{{name2}} </h3>
-        <h5 style = 'color : orange'> 거짓말 </h5>
-        <!-- 웹 페이지의 레이아웃, 요소, 사진 등 실제 웹 화면에 보여지는 것들을 기술하는 곳-->
 
-    
-    </body>
+<head>
+    <!-- 홈페이지의 상태, 외부 파일 import, 탭 이름 등 페이지에 대한 속성을 정의하는 곳-->
+    <title>팀 정보</title>
+    <style>
+        body {
+            background-color: #ffffff; /* 하얀색 배경 */
+            margin: 0; /* 페이지 여백 없애기 */
+        }
+
+        .header {
+            background-color: #808080; /* 회색 헤더 배경 */
+            padding: 10px; /* 헤더 안 여백 */
+            text-align: center;
+            color: #ffffff; /* 헤더 텍스트 색상 */
+        }
+
+        .header h1 {
+            display: inline;
+            margin: 0 10px;
+            color: #000000; /* 헤더 내 텍스트 색상 (검은색) */
+        }
+
+        .container {
+            border: 2px solid #ff0000; /* 빨간색 테두리 */
+            padding: 20px; /* 박스 안 여백 */
+            margin: 20px; /* 박스 간 여백 */
+            text-align: center;
+        }
+
+        h1 {
+            margin: 10px 0; /* 팀원 이름 간 여백 */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>공지사항</h1>
+        <h1>게시판</h1>
+        <h1>QnA</h1>
+    </div>
+
+    <div class="container">
+        <h1 style='color: rgb(0, 0, 255);'>팀원 1: {{name1}}</h1>
+        <h1 style='color: rgb(255, 0, 0);'>팀원 2: {{name2}}</h1>
+    </div>
+</body>
+
 </html>
