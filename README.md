@@ -3,7 +3,11 @@
  html 코드는 templates 폴더 test.html에 있뜸
 
 ## 기본구조
- 
+
+
+## SQLAlchemy, SQLClient
+* SQLAlchemy -> 파이썬 main.py 에서 mySQL 언어로 변환시켜주는 프포그램 <br>
+* SQLclient -> 변환된 언어 mySQL에 연결시켜주는 connector
 
 ## GPT 명령어 주는법
 ```<html>
